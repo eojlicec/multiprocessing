@@ -38,11 +38,13 @@ root@raspberrypi:/usr/local/program/multithread#
 ```
 
 ### Examples of Multithreading ###
+```console
 root@raspberrypi:/usr/local/program/multithread# ./mp
 First Multi Process joe
 Function process: 18210 ------------------------> Runs on a seperate thread
 Main process: 12515 ----------------------------> Main program runs on the main thread
 root@raspberrypi:/usr/local/program/multithread#
+```
 
 ### *Appendix*
 
