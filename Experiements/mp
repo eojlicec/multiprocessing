@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+from multiprocessing import Process
+import os
+
+def f(name):
+    print ('First Multi Process', name)
+    print ('Function process:', os.getppid())
+
+if __name__ == '__main__':
+    p = Process(target=f, args=('joe',))
+    p.start()
+    p.join()
+    print ('Main process:', os.getppid())
