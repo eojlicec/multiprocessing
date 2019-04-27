@@ -48,8 +48,8 @@ root@raspberrypi:/usr/local/program/multithread#
 
 ### *Appendix*
 
-real - time from start to finish of the call. It is the time from the moment you hit the Enter key until the moment the wget command is completed.
-user - amount of CPU time spent in user mode.
-sys - amount of CPU time spent in kernel mode.
+*real - time from start to finish of the call. It is the time from the moment you hit the Enter key until the moment the wget command is completed.
+*user - amount of CPU time spent in user mode.
+*sys - amount of CPU time spent in kernel mode.
 
 https://docs.python.org/3.5/library/multiprocessing.html#
